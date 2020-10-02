@@ -52,13 +52,6 @@ googleAnalytics = ""
     #Optional logo as brand stored in img/
     logo = "logo.svg"
     vciso = "vCISO"
-    #news = "News"
-    #speakers = "Speakers"
-    #portfolio = "Portfolio"
-    #schedule = "Schedule"
-    #training = "Training"
-    #contact = "Contact Us"
-    #sponsors = "Sponsors"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -81,22 +74,6 @@ googleAnalytics = ""
     #  link = "https://ti.to/bsidesatl/bsidesatl2020/"
     #  text = "Tickets"
 
-    #[[params.hero.links]]
-      #link = "https://join.slack.com/t/bsidesatl/shared_invite/zt-cr2n8r5f-KdVMTOFmYZKqZp1TPxMQEg"
-      #text = "Join our Slack"
-
-    #[[params.hero.links]]
-      #link = "https://www.youtube.com/c/BSidesATL"
-      #text = "YouTube"
-
-    #[[params.hero.links]]
-      #link = "https://bsidesatl2020shirts.itemorder.com"
-      #text = "Buy 2020 Shirts"
-
-    #[[params.hero.links]]
-      #link = "https://bsidesatl.itemorder.com/sale"
-      #text = "Buy Swag"
-
   # vciso section
   [params.vciso]
     enable = true
@@ -106,10 +83,6 @@ googleAnalytics = ""
     Very nice text goes here
     '''
 
-[params.training]
-    enable = true
-    title = "Training Sessions"
-    subtitle = "WTAFGet some extra learnings the day before, costs extra"
     # Footer section
   [params.footer]
     enable = true

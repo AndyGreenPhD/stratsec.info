@@ -98,14 +98,14 @@ googleAnalytics = ""
       #text = "Buy Swag"
 
   # vciso section
-  [params.slag]
-    enable = true
-    title = "Virtual CISO services"
-    text = '''
+[params.slag]
+  enable = true
+  title = "Virtual CISO services"
+  text = '''
 vCISO description goes here
 '''
 
-# vciso section
+# contact section
 [params.contact]
   enable = true
   title = "Contact us"

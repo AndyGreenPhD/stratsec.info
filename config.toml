@@ -49,8 +49,8 @@ googleAnalytics = ""
   # Navigation
   [params.navigation]
     brand = "stratsec.info"
-    # Optional logo as brand stored in img/
-    #logo = "logo.svg"
+    Optional logo as brand stored in img/
+    logo = "logo.svg"
     vciso = "vCISO"
     #news = "News"
     #speakers = "Speakers"

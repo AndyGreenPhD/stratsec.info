@@ -105,14 +105,6 @@ googleAnalytics = ""
 vCISO description goes here
 '''
 
-# contact section
-[params.contact]
-  enable = true
-  title = "Contact us"
-  text = '''
-contact description goes here
-'''
-
     # Footer section
   [params.footer]
     enable = true

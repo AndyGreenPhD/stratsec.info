@@ -50,15 +50,15 @@ googleAnalytics = ""
   [params.navigation]
     brand = "stratsec.info"
     # Optional logo as brand stored in img/
-    logo = "logo.svg"
-    vciso = "vCISO"
-    news = "News"
-    speakers = "Speakers"
+    #logo = "logo.svg"
+    #vciso = "vCISO"
+    #news = "News"
+    #speakers = "Speakers"
     #portfolio = "Portfolio"
     #schedule = "Schedule"
     #training = "Training"
-    contact = "Contact Us"
-    sponsors = "Sponsors"
+    #contact = "Contact Us"
+    #sponsors = "Sponsors"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example

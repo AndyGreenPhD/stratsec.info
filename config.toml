@@ -101,6 +101,7 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "Services"
+    subtitle = "This is a very nice subtitle"
     text = '''
 Services description goes here
 '''

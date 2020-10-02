@@ -85,15 +85,15 @@ googleAnalytics = ""
       link = "https://join.slack.com/t/bsidesatl/shared_invite/zt-cr2n8r5f-KdVMTOFmYZKqZp1TPxMQEg"
       text = "Join our Slack"
 
-    [[params.hero.links]]
+    #[[params.hero.links]]
       #link = "https://www.youtube.com/c/BSidesATL"
       #text = "YouTube"
 
-    [[params.hero.links]]
+    #[[params.hero.links]]
       #link = "https://bsidesatl2020shirts.itemorder.com"
       #text = "Buy 2020 Shirts"
 
-    [[params.hero.links]]
+    #[[params.hero.links]]
       #link = "https://bsidesatl.itemorder.com/sale"
       #text = "Buy Swag"
 

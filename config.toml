@@ -79,9 +79,9 @@ googleAnalytics = ""
     enable = true
     title = "vCISO Services"
     subtitle = "Add a CISO to your organization"
-    text = '''
-    Very nice text goes here in the config file
-    '''
+    #text = '''
+    #Very nice text goes here in the config file
+    #'''
 
     # Footer section
   [params.footer]

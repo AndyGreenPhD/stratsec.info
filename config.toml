@@ -51,7 +51,7 @@ googleAnalytics = ""
     brand = "stratsec.info"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    #vciso = "vCISO"
+    services = "Services"
     #news = "News"
     #speakers = "Speakers"
     #portfolio = "Portfolio"

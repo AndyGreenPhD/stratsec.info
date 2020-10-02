@@ -82,8 +82,8 @@ googleAnalytics = ""
       # text = "Tickets"
 
     [[params.hero.links]]
-      #link = "https://join.slack.com/t/bsidesatl/shared_invite/zt-cr2n8r5f-KdVMTOFmYZKqZp1TPxMQEg"
-      #text = "Join our Slack"
+      link = "https://join.slack.com/t/bsidesatl/shared_invite/zt-cr2n8r5f-KdVMTOFmYZKqZp1TPxMQEg"
+      text = "Join our Slack"
 
     [[params.hero.links]]
       #link = "https://www.youtube.com/c/BSidesATL"

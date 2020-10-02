@@ -15,6 +15,10 @@
       {{ partial "vciso.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.schedule.enable }}
+      {{ partial "schedule.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.services.enable }}
       {{ partial "services.html" . }}
     {{ end }}

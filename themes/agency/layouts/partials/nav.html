@@ -41,51 +41,9 @@
           </li>
         {{ end }}
 
-        {{ if .Site.Params.about.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
-          </li>
-        {{ end }}
-
-        {{ if .Site.Params.news.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#news">{{ with .Site.Params.navigation.news }}{{ . }}{{ end }}</a>
-          </li>
-        {{ end }}
-
-        {{ if .Site.Params.training.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#training">{{ with .Site.Params.navigation.training }}{{ . }}{{ end }}</a>
-          </li>
-        {{ end }}
-
-        {{ if .Site.Params.schedule.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#schedule">{{ with .Site.Params.navigation.schedule }}{{ . }}{{ end }}</a>
-          </li>
-        {{ end }}
-
-        {{ if .Site.Params.speakers.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#speakers">{{ with .Site.Params.navigation.speakers }}{{ . }}{{ end }}</a>
-          </li>
-        {{ end }}
-
-        {{ if .Site.Params.team.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#team">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>
-          </li>
-        {{ end }}
-
-        {{ if .Site.Params.sponsors_list.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#sponsors">{{ with .Site.Params.navigation.sponsors }}{{ . }}{{ end }}</a>
-          </li>
-        {{ end }}
-
         {{ if .Site.Params.contact.enable }}
           <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#contact">{{ with .Site.Params.navigation.contact }}{{ . }}{{ end }}</a>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#contact">{{ with .Site.Params.navigation.schedule }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
 

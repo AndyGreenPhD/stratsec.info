@@ -97,12 +97,20 @@ googleAnalytics = ""
       #link = "https://bsidesatl.itemorder.com/sale"
       #text = "Buy Swag"
 
-  # vCiso section
+  # vciso section
   [params.vciso]
     enable = true
     title = "Virtual CISO services"
     text = '''
 vCISO description goes here
+'''
+
+# vciso section
+[params.contact]
+  enable = true
+  title = "Contact"
+  text = '''
+contact description goes here
 '''
 
     # Footer section

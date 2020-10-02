@@ -95,6 +95,10 @@ googleAnalytics = ""
             name = "Security Risk Assessment Services"
             description = "We work with your team to develop an effective information security risk management program.  A risk assessment is important in building an information security program.  Risk management and risk assessment activities will take into account people, business processes (information handling), and technology."
 
+        [[params.services.service]]
+            name = "Security Standards Development and Peer Review"
+            description = "We work with your team to develop a security system that meets your needs and is installed to industry standards and best practices, with insights produced from our review process."
+
     # schedule section
   [params.schedule]
     enable = true

@@ -84,12 +84,12 @@ googleAnalytics = ""
             description = "With our vCISO service you retain a board-level resource who can ‘virtually sit inside your company’ and manage your security strategy, budget, review of risks and regulatory programs."
 
         [[params.services.service]]
-            name = "Advisory services"
+            name = "Advisory Services"
             description = "We provide ad-hoc advisory services to boards, leadership teams, and others on security related items."
 
         [[params.services.service]]
-            name = "Security program assessment"
-            description = "Ensure your organizational security function is appropriately staffed, resourced and situated."
+            name = "Security Program Assessment"
+            description = "We work with your senior leadership team to ensure your information security function is appropriately staffed, resourced and situated."
 
         [[params.services.service]]
             name = "Security Risk Assessment Services"
@@ -101,7 +101,7 @@ googleAnalytics = ""
 
         [[params.services.service]]
             name = "Keynote speaking"
-            description = "We are happy to provide keynote remarks at a reasonable fee."
+            description = "We are happy to provide event keynote remarks at a reasonable fee."
 
     # schedule section
   [params.schedule]

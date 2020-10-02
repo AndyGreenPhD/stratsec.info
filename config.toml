@@ -48,7 +48,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "StratSec.info"
+    brand = "stratsec.info"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     vciso = "vCISO"
@@ -108,7 +108,7 @@ vCISO description goes here
 # vciso section
 [params.contact]
   enable = true
-  title = "Contact"
+  title = "Contact us"
   text = '''
 contact description goes here
 '''

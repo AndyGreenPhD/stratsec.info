@@ -11,9 +11,9 @@
       {{ range .Site.Params.services.service }}
         <!-- <div class="col-sm-4 col"> -->
           <div class="services-service" id="{{ .name | urlize }}">
-            <h3>{{ .name | markdownify }}</h3>
+            <h2>{{ .name | markdownify }}</h2>
             {{ with .description }}
-            <h5>{{ . | markdownify }}</h5>
+            <p>{{ . | markdownify }}</p>
             {{ end }}
 
           </div>

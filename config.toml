@@ -78,9 +78,8 @@ googleAnalytics = ""
   [params.vciso]
     enable = true
     title = "vCISO Services"
-    subtitle = "This is a very nice subtitle"
     text = '''
-    Very nice text goes here
+    Very nice text goes here in the config file
     '''
 
     # Footer section

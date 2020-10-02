@@ -1,1 +1,1 @@
-# stratsec.info testing
+# stratsec.info

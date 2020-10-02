@@ -92,7 +92,7 @@ googleAnalytics = ""
 
   # vciso section
   [params.vciso]
-    enable = true
+    enable = false
     title = "vCISO Service"
     subtitle = "with our vCISO service you retain a board-level resource who can ‘virtually sit inside your company’ and manage your security strategy, budget, review of risks and regulatory programs."
     #text = '''

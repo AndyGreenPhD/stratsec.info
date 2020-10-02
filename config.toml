@@ -52,7 +52,10 @@ googleAnalytics = ""
     #Optional logo as brand stored in img/
     logo = "logo.svg"
     vciso = "vCISO"
-    schedule = "Schedule"
+    #news = "News"
+    #speakers = "Speakers"
+    #portfolio = "Portfolio"
+    #schedule = "Schedule"
     #training = "Training"
     #contact = "Contact Us"
     #sponsors = "Sponsors"
@@ -103,16 +106,10 @@ googleAnalytics = ""
     Very nice text goes here
     '''
 
-  [params.training]
+[params.training]
     enable = true
     title = "Training Sessions"
-    subtitle = "Get some extra learnings the day before, costs extra"
-
-    # Schedule section
-    [params.schedule]
-      enable = true
-      title = "Schedule"
-
+    subtitle = "WTAFGet some extra learnings the day before, costs extra"
     # Footer section
   [params.footer]
     enable = true

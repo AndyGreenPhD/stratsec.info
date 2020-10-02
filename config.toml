@@ -88,6 +88,9 @@ googleAnalytics = ""
   [params.schedule]
     enable = true
     title = "Schedule a free 30-minute consult"
+    text = '''
+    text goes here
+    '''
 
   # Footer section
   [params.footer]

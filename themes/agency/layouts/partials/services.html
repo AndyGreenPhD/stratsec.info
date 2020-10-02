@@ -3,12 +3,12 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ with .Site.Params.speakers.title }}{{ . | markdownify }}{{ end }}</h2>
-        <h3 class="section-subheading text-mutedwith ">{{ with .Site.Params.speakers.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+        <h2 class="section-heading">{{ with .Site.Params.services.title }}{{ . | markdownify }}{{ end }}</h2>
+        <h3 class="section-subheading text-mutedwith ">{{ with .Site.Params.services.subtitle }}{{ . | markdownify }}{{ end }}</h3>
       </div>
     </div>
-    <div class="row flexbox{{ if .Site.Params.speakers.center }} flexbox-center{{ end }}">
-      {{ range .Site.Params.speakers.members }}
+    <div class="row flexbox{{ if .Site.Params.services.center }} flexbox-center{{ end }}">
+      {{ range .Site.Params.services.members }}
         <div class="col-sm-4 col">
           <div class="speakers-member" id="{{ .name | urlize }}">
             {{ if .img }}
@@ -52,7 +52,7 @@
     </div>
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
-        <p class="large text-muted">{{ with .Site.Params.speakers.description }}{{ . | markdownify }}{{ end }}</p>
+        <p class="large text-muted">{{ with .Site.Params.services.description }}{{ . | markdownify }}{{ end }}</p>
       </div>
     </div>
   </div>

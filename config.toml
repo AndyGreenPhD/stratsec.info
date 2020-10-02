@@ -81,7 +81,7 @@ googleAnalytics = ""
         enable = true
         # Possibility to center items
         center = true
-        title = "Our amazing speakers"
+        title = "Service Offerings"
         subtitle = "Without them, we'd just be drinking coffee and eating lunch all day."
         #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 

@@ -98,11 +98,11 @@ googleAnalytics = ""
       #text = "Buy Swag"
 
   # vciso section
-  [params.vciso]
+  [params.services]
     enable = true
-    title = "Virtual CISO services"
+    title = "Services"
     text = '''
-vCISO description goes here
+Services description goes here
 '''
 
     # Footer section

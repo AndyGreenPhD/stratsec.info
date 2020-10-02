@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://stratsec.info"
+baseurl = "https://unruffled-fermat-5065aa.netlify.app/"
 languageCode = "en-us"
 title = "StratSec.info"
 theme = "agency"

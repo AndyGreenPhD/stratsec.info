@@ -102,11 +102,14 @@ googleAnalytics = ""
     enable = true
     title = "vCISO Services"
     subtitle = "This is a very nice subtitle"
+    text = '''
+    Very nice text goes here
+    '''
 
 [params.training]
     enable = true
     title = "Training Sessions"
-    subtitle = "Get some extra learnings the day before, costs extra"
+    subtitle = "WTAFGet some extra learnings the day before, costs extra"
     # Footer section
   [params.footer]
     enable = true

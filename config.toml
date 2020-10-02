@@ -84,12 +84,7 @@ googleAnalytics = ""
     #Very nice text goes here in the config file
     #'''
 
-    # vciso section
-    [params.schedule]
-      enable = true
-      title = "Schedule a consult"
-      
-    # Footer section
+  # Footer section
   [params.footer]
     enable = true
     copyright = ""

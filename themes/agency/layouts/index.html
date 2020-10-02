@@ -15,6 +15,10 @@
       {{ partial "schedule.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.services.enable }}
+      {{ partial "services.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.footer.enable }}
       {{ partial "footer.html" . }}
     {{ end }}

@@ -77,7 +77,7 @@ googleAnalytics = ""
         # Possibility to center items
         #center = true
         title = "Service Offerings"
-        subtitle = "Below are a list of our most frequently requested services.  If you don't see what you're looking for, schedule a consult to discuss your needs."
+        subtitle = "Below is a list of our most frequently requested services.  If you don't see what you're looking for, schedule a consult to discuss your needs."
 
         [[params.services.service]]
             name = "Virtual CISO (vCISO) Services"

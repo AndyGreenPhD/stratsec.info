@@ -80,7 +80,7 @@ googleAnalytics = ""
     [params.services]
         enable = true
         # Possibility to center items
-        center = true
+        #center = true
         title = "Service Offerings"
         #subtitle = "Without them, we'd just be drinking coffee and eating lunch all day."
 

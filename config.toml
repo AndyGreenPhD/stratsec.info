@@ -112,28 +112,7 @@ googleAnalytics = ""
              #["fa-twitter", "https://twitter.com/MsAmberWelch"],
             #]
 
-  [params.services]
-          enable = true
-          # Possibility to center items
-          center = true
-          # Optional sponsor title specifying the involvement
-          title = "Our Services"
-
-  [[params.services.service]]
-  title = "vCISO Service"
-  subtitle = "with our vCISO service you retain a board-level resource who can ‘virtually sit inside your company’ and manage your security strategy, budget, review of risks and regulatory programs."
-  text = '''
-  Very nice text goes here in the config file
-  '''
-
-  [[params.services.service]]
-  title = "Service2"
-  subtitle = "with our vCISO service you retain a board-level resource who can ‘virtually sit inside your company’ and manage your security strategy, budget, review of risks and regulatory programs."
-  text = '''
-  Very nice text goes here in the config file
-  '''
-
-  # vciso section
+    # vciso section
   [params.vciso]
     enable = false
     title = "vCISO Service"

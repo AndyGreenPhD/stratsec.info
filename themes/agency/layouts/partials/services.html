@@ -9,7 +9,7 @@
     </div>
     <div class="row flexbox{{ if .Site.Params.services.center }} flexbox-center{{ end }}">
       {{ range .Site.Params.services.service }}
-        <div class="col-sm-4 col">
+        <!-- <div class="col-sm-4 col"> -->
           <div class="services-service" id="{{ .name | urlize }}">
             <h3>{{ .name | markdownify }}</h3>
             {{ with .description }}
@@ -17,7 +17,7 @@
             {{ end }}
 
           </div>
-        </div>
+        <!-- </div> -->
       {{ end }}
     </div>
     <div class="row">

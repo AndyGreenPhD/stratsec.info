@@ -51,7 +51,7 @@ googleAnalytics = ""
     brand = "stratsec.info"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
+    vciso = "vCISO"
     #news = "News"
     #speakers = "Speakers"
     #portfolio = "Portfolio"
@@ -98,12 +98,12 @@ googleAnalytics = ""
       #text = "Buy Swag"
 
   # vciso section
-  [params.services]
+  [params.vciso]
     enable = true
-    title = "Services"
+    title = "vCISO Services"
     subtitle = "This is a very nice subtitle"
     text = '''
-Services description goes here
+vCISO Services description goes here
 '''
 [params.contact]
     enable = true

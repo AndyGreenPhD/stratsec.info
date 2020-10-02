@@ -81,7 +81,7 @@ googleAnalytics = ""
 
         [[params.services.service]]
             name = "Virtual CISO (vCISO) Services"
-            description = "with our vCISO service you retain a board-level resource who can ‘virtually sit inside your company’ and manage your security strategy, budget, review of risks and regulatory programs."
+            description = "With our vCISO service you retain a board-level resource who can ‘virtually sit inside your company’ and manage your security strategy, budget, review of risks and regulatory programs."
 
         [[params.services.service]]
             name = "Advisory services"

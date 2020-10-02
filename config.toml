@@ -82,21 +82,8 @@ googleAnalytics = ""
         # Possibility to center items
         center = true
         title = "Service Offerings"
-        subtitle = "Without them, we'd just be drinking coffee and eating lunch all day."
-        #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-
-        # All speakers member's pictures are stored under 'static/img/speakers'.
-        # Replace them with your own too.
-        # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-        [[params.services.members]]
-          name = "Dave Shackleford"
-          position = "Keynote: Software-Defined Everything, and What That Means to Security"
-          company = "Voodoo Security"
-          bio = """Dave is the CEO and Principal Consultant with Voodoo Security, and has consulted with hundreds of organizations in the areas of security, regulatory compliance, and network architecture and engineering. Dave is also Lead Faculty at IANS, a SANS analyst, instructor, and course author, and a board member with the SANS Technology Institute. He is a VMware vExpert, and has extensive experience designing and configuring secure virtualized infrastructures. He's the author of the Sybex book ""Virtualization Security: Protecting Virtualized Environments"", leads the Atlanta chapter of the Cloud Security Alliance, and co-chairs the CSA Top Threats to Cloud Working Group. Dave has previously worked as CSO for Configuresoft, CTO for the Center for Internet Security, and has also worked as a security architect, analyst, and manager for several Fortune 500 companies."""
-          social = [
-           ["fa-twitter", "https://twitter.com/daveshackleford"],
-           ["fa-twitter", "https://twitter.com/voodoosecurity"],
-          ]
+        #subtitle = "Without them, we'd just be drinking coffee and eating lunch all day."
+        
         [[params.services.members]]
           name = "Amber Welch"
           position = "Data Access Rights Exploits under New Privacy Laws"

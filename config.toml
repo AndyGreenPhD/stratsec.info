@@ -104,7 +104,10 @@ googleAnalytics = ""
     text = '''
 Services description goes here
 '''
-
+[params.contact]
+    enable = true
+    title = "Training Sessions"
+    subtitle = "Get some extra learnings the day before, costs extra"
     # Footer section
   [params.footer]
     enable = true

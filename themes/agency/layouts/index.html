@@ -11,6 +11,10 @@
       {{ partial "about.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.services.enable }}
+      {{ partial "services.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.news.enable }}
       {{ partial "news.html" . }}
     {{ end }}

@@ -80,7 +80,7 @@ googleAnalytics = ""
         subtitle = "Below are a list of our most frequently requested services.  If you don't see what you're looking for, schedule a consult to discuss your needs."
 
         [[params.services.service]]
-            name = "vCISO Services"
+            name = "Virtual CISO (vCISO) Services"
             description = "with our vCISO service you retain a board-level resource who can ‘virtually sit inside your company’ and manage your security strategy, budget, review of risks and regulatory programs."
 
         [[params.services.service]]

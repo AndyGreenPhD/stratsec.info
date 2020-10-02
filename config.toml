@@ -112,10 +112,10 @@ vCISO description goes here
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "https://twitter.com/bsidesatl"
+      link = "https://twitter.com/AndyGreenPhD"
       title = "Twitter"
 
     [[params.footer.social]]
       icon = "fa-github"
-      link = "https://github.com/bsidesatl"
+      link = "https://github.com/AndyGreenPhD"
       title = "Github"

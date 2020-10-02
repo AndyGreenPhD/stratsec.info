@@ -52,6 +52,7 @@ googleAnalytics = ""
     #Optional logo as brand stored in img/
     logo = "logo.svg"
     vciso = "vCISO services"
+    schedule = "Schedule a consult"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -79,10 +80,15 @@ googleAnalytics = ""
     enable = true
     title = "vCISO Services"
     subtitle = "Add a CISO to your organization"
-    text = '''
-    Very nice text goes here in the config file
-    '''
+    #text = '''
+    #Very nice text goes here in the config file
+    #'''
 
+    # vciso section
+    [params.schedule]
+      enable = true
+      title = "Schedule a consult"
+      
     # Footer section
   [params.footer]
     enable = true

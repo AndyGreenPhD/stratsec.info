@@ -101,7 +101,7 @@ googleAnalytics = ""
 
         [[params.services.service]]
             name = "Keynote speaking"
-            description = "We are happy to provide keynote addresses at a reasonable fee"
+            description = "We are happy to provide keynote remarks at a reasonable fee."
 
     # schedule section
   [params.schedule]

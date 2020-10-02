@@ -85,8 +85,9 @@ googleAnalytics = ""
     #'''
 
     # schedule section
-    [params.schedule]
-      enable = true
+  [params.schedule]
+    enable = true
+    title = "Schedule a consult"
 
   # Footer section
   [params.footer]

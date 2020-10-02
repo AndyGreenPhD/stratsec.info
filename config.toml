@@ -52,13 +52,13 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     slag = "vCISO"
-    #news = "News"
-    #speakers = "Speakers"
+    news = "News"
+    speakers = "Speakers"
     #portfolio = "Portfolio"
     #schedule = "Schedule"
     #training = "Training"
     contact = "Contact Us"
-    #sponsors = "Sponsors"
+    sponsors = "Sponsors"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -77,9 +77,9 @@ googleAnalytics = ""
     title = "Information Security Consulting from an industry and academic expert"
     subtitle = "Strategic Security Consulting Services"
 
-    # [[params.hero.links]]
-      # link = "https://ti.to/bsidesatl/bsidesatl2020/"
-      # text = "Tickets"
+    [[params.hero.links]]
+      link = "https://ti.to/bsidesatl/bsidesatl2020/"
+      text = "Tickets"
 
     #[[params.hero.links]]
       #link = "https://join.slack.com/t/bsidesatl/shared_invite/zt-cr2n8r5f-KdVMTOFmYZKqZp1TPxMQEg"

@@ -76,7 +76,7 @@ googleAnalytics = ""
     #  link = "https://ti.to/bsidesatl/bsidesatl2020/"
     #  text = "Tickets"
 
-  [params.services_list]
+  [params.services]
           enable = true
           # Possibility to center items
           center = true

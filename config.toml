@@ -99,6 +99,10 @@ googleAnalytics = ""
             name = "Security Standards Development and Peer Review"
             description = "We work with your team to develop a security system that meets your needs and is installed to industry standards and best practices, with insights produced from our review process."
 
+        [[params.services.service]]
+            name = "Keynote speaking"
+            description = "We are happy to provide keynote addresses at a reasonable fee"
+
     # schedule section
   [params.schedule]
     enable = true

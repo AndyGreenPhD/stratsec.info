@@ -83,21 +83,10 @@ googleAnalytics = ""
         center = true
         title = "Service Offerings"
         #subtitle = "Without them, we'd just be drinking coffee and eating lunch all day."
-        
+
         [[params.services.members]]
-          name = "Amber Welch"
-          position = "Data Access Rights Exploits under New Privacy Laws"
-          bio = """Until she’s accepted for a Mars mission, Amber Welch is pursuing the advancement of personal information privacy and data protection as a Privacy Technical Lead for Schellman & Company. Amber has been assessing corporate privacy compliance programs for the past year and prior to that, managed security and privacy governance for a suite of SaaS products. She has previously worked in companies creating ERP, CRM, event planning, and biologics manufacturing software."""
-          social = [
-           ["fa-twitter", "https://twitter.com/MsAmberWelch"],
-          ]
-          [[params.services.members]]
             name = "vCISO Services"
             position = "with our vCISO service you retain a board-level resource who can ‘virtually sit inside your company’ and manage your security strategy, budget, review of risks and regulatory programs."
-            #bio = """Until she’s accepted for a Mars mission, Amber Welch is pursuing the advancement of personal information privacy and data protection as a Privacy Technical Lead for Schellman & Company. Amber has been assessing corporate privacy compliance programs for the past year and prior to that, managed security and privacy governance for a suite of SaaS products. She has previously worked in companies creating ERP, CRM, event planning, and biologics manufacturing software."""
-            #social = [
-             #["fa-twitter", "https://twitter.com/MsAmberWelch"],
-            #]
 
     # vciso section
   [params.vciso]

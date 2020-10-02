@@ -1,0 +1,121 @@
+# Site settings
+baseurl = "https://stratsec.info"
+languageCode = "en-us"
+title = "StratSec.info"
+theme = "agency"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "StratSec.info"
+  description = "Strategic Security Consulting Services LLC"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = true
+
+  # Enable the BSidesATL Twitter Card image
+  #socialCard = true
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "StratSec.info"
+    # Optional logo as brand stored in img/
+    logo = "logo.svg"
+    about = "About"
+    news = "News"
+    speakers = "Speakers"
+    #portfolio = "Portfolio"
+    schedule = "Schedule"
+    training = "Training"
+    contact = "Contact"
+    sponsors = "Sponsors"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "Information Security Consulting from an industry and academic expert"
+    subtitle = "Strategic Security Consulting Services"
+
+    # [[params.hero.links]]
+      # link = "https://ti.to/bsidesatl/bsidesatl2020/"
+      # text = "Tickets"
+
+    [[params.hero.links]]
+      #link = "https://join.slack.com/t/bsidesatl/shared_invite/zt-cr2n8r5f-KdVMTOFmYZKqZp1TPxMQEg"
+      #text = "Join our Slack"
+
+    [[params.hero.links]]
+      #link = "https://www.youtube.com/c/BSidesATL"
+      #text = "YouTube"
+
+    [[params.hero.links]]
+      #link = "https://bsidesatl2020shirts.itemorder.com"
+      #text = "Buy 2020 Shirts"
+
+    [[params.hero.links]]
+      #link = "https://bsidesatl.itemorder.com/sale"
+      #text = "Buy Swag"
+
+  # vCiso section
+  [params.vciso]
+    enable = true
+    title = "Virtual CISO services"
+    text = '''
+vCISO description goes here
+'''
+
+    # Footer section
+  [params.footer]
+    enable = true
+    copyright = ""
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "https://twitter.com/bsidesatl"
+      title = "Twitter"
+
+    [[params.footer.social]]
+      icon = "fa-github"
+      link = "https://github.com/bsidesatl"
+      title = "Github"

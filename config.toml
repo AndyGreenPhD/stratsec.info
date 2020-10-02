@@ -84,6 +84,10 @@ googleAnalytics = ""
     #Very nice text goes here in the config file
     #'''
 
+    # schedule section
+    [params.schedule]
+      enable = true
+
   # Footer section
   [params.footer]
     enable = true

@@ -11,10 +11,6 @@
       {{ range .Site.Params.services.service }}
         <div class="col-sm-4 col">
           <div class="services-member" id="{{ .name | urlize }}">
-            {{ if .img }}
-            {{ $url := printf "img/services/%s" .img }}
-            <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}">
-            {{ end }}
             <h3>{{ .name | markdownify }}</h3>
             {{ with .company }}
             <h5 class="report">{{ . | markdownify }}</h5>

@@ -20,10 +20,6 @@
             <h4>{{ . | markdownify }}</h4>
             {{ end }}
 
-            {{ with .livesIn }}
-            <h5>Lives in {{ . | markdownify }}</h5>
-            {{ end }}
-
             {{ with .scope }}
             <ul>
               {{ range . }}

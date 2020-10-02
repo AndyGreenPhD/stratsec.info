@@ -110,7 +110,7 @@ googleAnalytics = ""
             #bio = """Until she’s accepted for a Mars mission, Amber Welch is pursuing the advancement of personal information privacy and data protection as a Privacy Technical Lead for Schellman & Company. Amber has been assessing corporate privacy compliance programs for the past year and prior to that, managed security and privacy governance for a suite of SaaS products. She has previously worked in companies creating ERP, CRM, event planning, and biologics manufacturing software."""
             #social = [
              #["fa-twitter", "https://twitter.com/MsAmberWelch"],
-            ]
+            #]
 
   [params.services]
           enable = true

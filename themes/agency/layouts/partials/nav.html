@@ -35,6 +35,12 @@
           </li>
         {{ end }}
 
+        {{ if .Site.Params.services.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#services">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
         {{ if .Site.Params.vciso.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#vciso">{{ with .Site.Params.navigation.vciso }}{{ . }}{{ end }}</a>

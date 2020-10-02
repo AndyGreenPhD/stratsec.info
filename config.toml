@@ -57,7 +57,7 @@ googleAnalytics = ""
     #portfolio = "Portfolio"
     #schedule = "Schedule"
     #training = "Training"
-    contact = "Contact Us"
+    #contact = "Contact Us"
     #sponsors = "Sponsors"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -102,9 +102,7 @@ googleAnalytics = ""
     enable = true
     title = "vCISO Services"
     subtitle = "This is a very nice subtitle"
-    text = '''
-vCISO Services description goes here
-'''
+
 [params.training]
     enable = true
     title = "Training Sessions"

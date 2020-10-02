@@ -57,7 +57,7 @@ googleAnalytics = ""
     #portfolio = "Portfolio"
     #schedule = "Schedule"
     #training = "Training"
-    #contact = "Contact Us"
+    contact = "Contact Us"
     #sponsors = "Sponsors"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.

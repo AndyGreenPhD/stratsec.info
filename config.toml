@@ -84,11 +84,11 @@ googleAnalytics = ""
         title = "Service Offerings"
         #subtitle = "Without them, we'd just be drinking coffee and eating lunch all day."
 
-        [[params.services.members]]
+        [[params.services.service]]
             name = "vCISO Services"
             position = "with our vCISO service you retain a board-level resource who can ‘virtually sit inside your company’ and manage your security strategy, budget, review of risks and regulatory programs."
 
-        [[params.services.members]]
+        [[params.services.service]]
             name = "Advisory services"
             position = "We provide ad-hoc advisory services to boards, leadership teams, and others on security related items."
 

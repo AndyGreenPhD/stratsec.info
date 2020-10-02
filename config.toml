@@ -92,6 +92,9 @@ googleAnalytics = ""
             name = "Advisory services"
             description = "We provide ad-hoc advisory services to boards, leadership teams, and others on security related items."
 
+        [[params.services.service]]
+            name = "Security program assessment"
+            description = "Ensure your organizational security function is appropriately staffed, resourced and situated."
 
     # schedule section
   [params.schedule]

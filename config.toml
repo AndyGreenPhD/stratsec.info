@@ -77,9 +77,9 @@ googleAnalytics = ""
     title = "Information Security Consulting from an industry and academic expert"
     subtitle = "Strategic Security Consulting Services"
 
-    [[params.hero.links]]
-      link = "https://ti.to/bsidesatl/bsidesatl2020/"
-      text = "Tickets"
+    #[[params.hero.links]]
+    #  link = "https://ti.to/bsidesatl/bsidesatl2020/"
+    #  text = "Tickets"
 
     #[[params.hero.links]]
       #link = "https://join.slack.com/t/bsidesatl/shared_invite/zt-cr2n8r5f-KdVMTOFmYZKqZp1TPxMQEg"
@@ -98,10 +98,10 @@ googleAnalytics = ""
       #text = "Buy Swag"
 
   # vciso section
-[params.vciso]
-  enable = true
-  title = "Virtual CISO services"
-  text = '''
+  [params.vciso]
+    enable = true
+    title = "Virtual CISO services"
+    text = '''
 vCISO description goes here
 '''
 

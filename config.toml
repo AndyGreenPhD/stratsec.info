@@ -51,7 +51,8 @@ googleAnalytics = ""
     brand = "stratsec.info"
     #Optional logo as brand stored in img/
     logo = "logo.svg"
-    vciso = "vCISO services"
+    services = "Our Services"
+    #vciso = "vCISO services"
     schedule = "Schedule a consult"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -74,6 +75,20 @@ googleAnalytics = ""
     #[[params.hero.links]]
     #  link = "https://ti.to/bsidesatl/bsidesatl2020/"
     #  text = "Tickets"
+
+  [params.services_list]
+          enable = true
+          # Possibility to center items
+          center = true
+          # Optional sponsor title specifying the involvement
+          title = "Our Services"
+
+  [[params.services.vciso]]
+  title = "vCISO Service"
+  subtitle = "with our vCISO service you retain a board-level resource who can ‘virtually sit inside your company’ and manage your security strategy, budget, review of risks and regulatory programs."
+  text = '''
+  Very nice text goes here in the config file
+  '''
 
   # vciso section
   [params.vciso]

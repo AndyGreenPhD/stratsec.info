@@ -35,9 +35,9 @@
           </li>
         {{ end }}
 
-        {{ if .Site.Params.services.enable }}
+        {{ if .Site.Params.services_list.enable }}
           <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#services">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#services">{{ with .Site.Params.navigation.services_list }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
 
